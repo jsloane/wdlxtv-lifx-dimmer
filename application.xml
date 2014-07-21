@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<application>
+    <name>LiFxDimmer</name>
+    <desc>LiFxDimmer dims your LiFx light bulbs when you start playing video, and brightens when you pause/stop playback.</desc>
+    <author>jsloane</author>
+    <date>2014-05-30</date>
+    <version>1.0.0</version>
+    <category>System</category>
+    <url>http://forum.wdlxtv.com/viewtopic.php?f=0&amp;t=0</url>
+    <size></size>
+    <force_size></force_size>
+    <format>ext3</format>
+    <provides>
+        <binary>false</binary>
+        <daemon>true</daemon>
+        <kernelmodule>false</kernelmodule>
+        <webend>false</webend>
+    </provides>
+    <dependencies>
+        <model>LIVE</model>
+        <basefirmware>
+            <min>1.01.00</min>
+            <max></max>
+        </basefirmware>
+        <firmware>
+            <min>0.4.3.1</min>
+            <max></max>
+        </firmware>
+        <wdtvext>false</wdtvext>
+        <network>true</network>
+        <config></config>
+        <app></app>
+    </dependencies>
+    <id>lifxdimmer</id>
+    <download>lifxdimmer.app.bin</download>
+</application>

@@ -1,0 +1,10 @@
+#!/bin/sh
+# WEC entries for LiFx Dimmer
+
+ln -s /apps/lifxdimmer/bin/lifxdimmer.sh /apps/lifxdimmer/bin/lifxdimmer
+chmod ugo+x /apps/lifxdimmer/bin/lifxdimmer
+
+ln -s /apps/lifxdimmer/var/www/addons/config/plugins/lifx_dimmer_wec.php /tmp/config-plugins/lifx_dimmer_wec.php
+
+add.webplugin lifxdimmer /apps/lifxdimmer/var/www/lifxdimmer
+load.webplugin
